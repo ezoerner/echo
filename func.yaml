@@ -1,0 +1,11 @@
+name: ezoerner/echo
+version: 0.0.1
+path: /echo
+type: sync
+memory: 128
+config:
+  key: value
+  key2: value2
+  keyN: valueN
+build:
+- stack install
