@@ -1,6 +1,9 @@
 # echo
+Experimentation with FaaS (Functions as a Service) implemented in Haskell.
 
-To prepare for first docker build:  
+If you don't have Docker already installed, install [Docker](https://docs.docker.com/engine/installation/) first. Note that docker
+integration with `stack` does not currently work on Windows (see [#2421](https://github.com/commercialhaskell/stack/issues/2421)).
+
 _This downloads the official stack-build docker image from fpco (FP Complete)_
 
     > stack docker pull
