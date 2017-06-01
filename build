@@ -1,2 +1,0 @@
-stack install
-docker build -t ezoerner/echo .

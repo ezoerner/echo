@@ -1,5 +1,5 @@
 FROM fpco/stack-run
-WORKDIR /function
-ADD .stack-work/docker/_home/.local/bin/echo-exe /function/
+WORKDIR /echo
+ADD .stack-work/docker/_home/.local/bin/echozulu /echo/
 # Set what will run when a container is started for this image
-ENTRYPOINT ["./echo-exe"]
+ENTRYPOINT ["./echozulu"]
