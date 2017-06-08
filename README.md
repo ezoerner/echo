@@ -39,7 +39,7 @@ Install the `fn` CLI tool:
 
     > curl -LSs https://goo.gl/VZrL8t | sh
 
-If you are using a runtime that IronFunctions knows about (**rust**, **dotnet** (F# or C#), **go**, **node**, **ruby**, **python**) then `fn init` will create a `Dockerfile` and `func.yaml` for you. Otherwise, you need to create the `Dockerfile` yourself before running `fn init` to create the `func.yaml` file.
+If you are using a runtime that IronFunctions knows about (**rust**, **dotnet** (F# or C#), **go**, **node**, **ruby**, **python**) then `fn init` will create a `Dockerfile` and `func.yaml` for you. Otherwise (which is this case, **haskell**), you need to create the `Dockerfile` yourself before running `fn init` to create the `func.yaml` file. See `Dockerfile` in this project.
 
     > fn init ezoerner/echo
 
