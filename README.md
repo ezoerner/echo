@@ -2,6 +2,8 @@
 Experimentation with FaaS (Functions as a Service) implemented in Haskell.
 
 ## Project Setup
+To build Haskell code in this project, install [Stack](https://docs.haskellstack.org/en/stable/README/).
+
 If you don't have Docker already installed, install [Docker](https://docs.docker.com/engine/installation/) first. Note that docker
 integration with `stack` does not currently work on Windows (see [#2421](https://github.com/commercialhaskell/stack/issues/2421)).
 
