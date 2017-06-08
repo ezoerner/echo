@@ -1,11 +1,7 @@
 name: ezoerner/echo
 version: 0.0.1
+runtime: haskell
 path: /echo
-type: sync
-memory: 128
-config:
-  key: value
-  key2: value2
-  keyN: valueN
+max_concurrency: 1
 build:
-- stack install
+  - stack install
