@@ -7,7 +7,7 @@ To build Haskell code in this project, install [Stack](https://docs.haskellstack
 If you don't have Docker already installed, install [Docker](https://docs.docker.com/engine/installation/) first. Note that docker
 integration with `stack` does not currently work on Windows (see [#2421](https://github.com/commercialhaskell/stack/issues/2421)).
 
-## Building and Running a Haskell program with Docker
+## Experiment 1: Building and Running a Haskell program with Docker
 _This downloads the official stack-build docker image from fpco (FP Complete)_
 
     > stack docker pull
@@ -29,7 +29,7 @@ To execute using docker:
 
     > docker run -i -t ezoerner/echo
 
-## Running a Haskell program as an [IronFunction](https://github.com/iron-io/functions)
+## Experiment 2: Building and Running a Haskell program as an [IronFunction](https://github.com/iron-io/functions)
 
 Fire up an `iron/functions` container:
 
