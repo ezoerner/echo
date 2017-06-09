@@ -13,7 +13,13 @@ _This downloads the official stack-build docker image from fpco (FP Complete)_
 
     > stack docker pull
 
-To build the executable:
+The standard `stack` commands automatically use docker because of the
+docker configuration in the `stack.yaml` file:
+
+    docker:
+       enable: true
+
+To build the executable:  
 
     > stack install
 
