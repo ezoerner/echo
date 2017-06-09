@@ -1,5 +1,6 @@
 # echo
 Experiments in deploying Haskell functions in a platform-independent way.
+The function "echozulu" is just a barebones Haskell function that echoes the first line.
 
 ## Project Setup
 To build Haskell code in this project, install [Stack](https://docs.haskellstack.org/en/stable/README/).
