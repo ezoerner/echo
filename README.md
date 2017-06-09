@@ -1,5 +1,5 @@
 # echo
-Experimentation with FaaS (Functions as a Service) implemented in Haskell.
+Experiments in deploying Haskell functions in a platform-independent way.
 
 ## Project Setup
 To build Haskell code in this project, install [Stack](https://docs.haskellstack.org/en/stable/README/).
@@ -30,6 +30,7 @@ To execute using docker:
     > docker run -i -t ezoerner/echo
 
 ## Experiment 2: Building and Running a Haskell program as an [IronFunction](https://github.com/iron-io/functions)
+Experimentation with FaaS (Functions as a Service) implemented in Haskell.
 
 Fire up an `iron/functions` container:
 
