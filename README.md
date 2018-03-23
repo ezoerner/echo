@@ -77,3 +77,8 @@ Call your function via HTTP:
 
     > curl -H "Content-Type: text/plain" -X POST --data "Hallo Wereld" http://localhost:8080/r/echo/echozulu
 
+
+## Experiment 3: Building and Running a Haskell program as an AWS Lambda function
+
+See https://github.com/ezoerner/aws-lambda-haskell
+
